@@ -120,6 +120,10 @@
     color: white;
 }
 
+.button:focus {
+    outline: none;
+}
+
 .button:disabled {
     background: none;
     color: black;
