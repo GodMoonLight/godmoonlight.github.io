@@ -193,7 +193,7 @@
 body {
     margin: 0;
     color: #4a4a4a;
-    background: #f0f2f5;
+    background: #ffffff;
     font-family: sans-serif;
 }
 
@@ -210,7 +210,7 @@ body {
   border-radius: 5px;
   margin: 10px 0;
   display: block;
-  background: white;
+  background: #f2f4f7;
   padding: 1em;
   color: #333333;
   overflow-x: auto;
@@ -251,82 +251,89 @@ a {
   height: 40px;
 }
 
-/*
-
-Darcula color scheme from the JetBrains family of IDEs
-
-*/
-
+/**
+ * GitHub Gist Theme
+ * Author : Anthony Attard - https://github.com/AnthonyAttard
+ * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
+ */
 
 .hljs {
   display: block;
-  overflow-x: auto;
+  background: white;
   padding: 0.5em;
-  background: #2b2b2b;
+  color: #333333;
+  overflow-x: auto;
 }
 
-.hljs {
-  color: #bababa;
+.hljs-comment,
+.hljs-meta {
+  color: #969896;
 }
 
+.hljs-variable,
+.hljs-template-variable,
 .hljs-strong,
-.hljs-emphasis {
-  color: #a8a8a2;
-}
-
-.hljs-bullet,
-.hljs-quote,
-.hljs-link,
-.hljs-number,
-.hljs-regexp,
-.hljs-literal {
-  color: #6896ba;
-}
-
-.hljs-code,
-.hljs-selector-class {
-  color: #a6e22e;
-}
-
-.hljs-emphasis {
-  font-style: italic;
+.hljs-emphasis,
+.hljs-quote {
+  color: #df5000;
 }
 
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-section,
-.hljs-attribute,
-.hljs-name,
-.hljs-variable {
-  color: #cb7832;
+.hljs-type {
+  color: #d73a49;
 }
 
-.hljs-params {
-  color: #b9b9b9;
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-attribute {
+  color: #0086b3;
+}
+
+.hljs-section,
+.hljs-name {
+  color: #63a35c;
+}
+
+.hljs-tag {
+  color: #333333;
+}
+
+.hljs-title,
+.hljs-attr,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #6f42c1;
+}
+
+.hljs-addition {
+  color: #55a532;
+  background-color: #eaffea;
+}
+
+.hljs-deletion {
+  color: #bd2c00;
+  background-color: #ffecec;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
+.hljs-number {
+  color: #005cc5;
 }
 
 .hljs-string {
-  color: #6a8759;
+  color: #032f62;
 }
 
-.hljs-subst,
-.hljs-type,
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-symbol,
-.hljs-selector-id,
-.hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-template-tag,
-.hljs-template-variable,
-.hljs-addition {
-  color: #e0c46c;
-}
-
-.hljs-comment,
-.hljs-deletion,
-.hljs-meta {
-  color: #7f7f7f;
+.code-block {
+    border: 1px solid #d1d5da;
+    border-radius: 5px;
 }
 
 .markdown{
